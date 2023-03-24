@@ -1,0 +1,62 @@
+.navbar{
+    margin-left: 8%;
+    
+
+}
+#nuro{
+    color: rgb(0, 255, 157);
+}
+.navbar a{
+text-decoration: none;
+margin:4%;
+color: rgb(0, 102, 255);
+}
+h1{
+    text-align: center;
+}
+.out{
+    display: flex;
+    gap:5%;
+}
+.image img{
+height: 430px;
+width: 500px;
+border-radius: 50% 0% 50% 0%;
+margin-left: 8%;
+}
+.Words{
+    font-size: 20px;
+    margin-left: 12%;
+}
+#see{
+    border-color: aqua;
+    border-radius: 10%;
+    padding: 10px;
+    color: aqua;
+}
+.end{
+    display: flex;
+    gap: 25%;
+    margin-left: 3%;
+    background-color: rgb(142, 164, 194);
+    border-radius: 2%;
+    margin-top: 5%;
+}
+.local{
+    margin-left: 2%;
+}
+
+    @media screen and (max-width:600px){
+        .image img{
+            height: 400px;
+            width: 200px;
+            border-radius: 50% 0% 50% 0%;
+            margin-left: 8%;
+            
+            }
+            .out{
+                display: flex;
+                gap:40%;}
+            
+                }
+    

@@ -1,0 +1,157 @@
+
+
+    
+
+.navbar{
+    margin-left: 8%;
+    margin-bottom: 8%;
+    margin-top: 2%;
+    
+
+}
+.navbar a{
+text-decoration: none;
+margin:4%;
+color: rgb(72, 0, 255);
+
+}
+
+#nuro{
+    color: rgb(0, 255, 225);
+    margin-left: 5%;
+}
+#log {
+    background-color: whitesmoke;
+    color:rgb(0, 110, 255);
+    border-color: rgb(0, 89, 255);
+     border-radius: 10px;
+     padding: 12px; 
+     margin-left: 3%;
+}
+
+
+#sign{
+    background-color: rgb(0, 81, 255);
+    border: none; 
+    color: rgb(255, 255, 255);
+    padding: 15px;
+     border-radius: 10px; 
+     
+}
+#sign button{
+    margin-left: 22%;
+} 
+.head{
+    display: flex;
+    gap: 5%;
+    
+}
+.star{
+    display: flex;
+    margin-left: 5%;
+    
+}
+.img1 img{
+    height: 450px;
+    width: 600px;
+    border-radius: 5%;
+    margin-left: 5%;
+}
+.images img{
+    height: 140px;
+    width: 180px ;
+    border-radius:5%;
+    gap: 5%;
+
+}
+.price{
+    display: flex;
+    gap: 3%;
+}
+.hotel{
+    display: flex;
+}
+.button{
+    margin-top: 10%;
+    /* margin-left: 19%; */
+}
+.branch{
+    display: flex;
+    gap: 22%;
+    margin-left: 8%;
+    font-size: small;
+}
+.food{
+    margin-top: 15%;
+    background-color: whitesmoke;
+    height: 280px;
+    width: 430px;
+    border-radius: 2%;
+    margin-left: 12px;
+}
+h1{
+    margin-left: 8%;
+}
+.desp{
+    margin-left: 5%;
+}
+#PE{
+    text-align: center;
+    color: rgb(0, 76, 255);
+}
+.end{
+    display: flex;
+    gap: 25%;
+    margin-left: 3%;
+    background-color: aliceblue;
+    border-radius: 2%;
+    margin-top: 5%;
+}
+.local{
+    margin-left: 2%;
+}
+
+@media screen and (max-width:600px){
+.img1 img{
+        height: 400px;
+        width: 100%;
+        /* border-radius: 5%; 
+        /* margin-left: 5%; */
+    /* } */ }
+    .star {
+        flex-direction: column;
+        margin-left: 1%;
+    }
+    .food{
+        margin-top: 15%;
+        background-color: whitesmoke;
+        height: 180px;
+        width: 200px;
+        border-radius: 2%;
+        margin-left: 5px;
+    }
+    .branch{
+        /* display: flex; */
+        gap: 12%;
+        margin-left: 2%;
+        font-size: small;
+    }
+    .end{
+        /* display: flex; */
+        gap: 10%;
+        margin-left: 3%;
+        background-color: aliceblue;
+        border-radius: 2%;
+        margin-top: 5%;
+    }
+    .local{
+        font-size: small;
+    }
+    #home{
+        height: 100px;
+        width: 100px;
+    }
+    .navbar{
+        margin-left: 4%;
+    }
+}

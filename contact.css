@@ -1,0 +1,54 @@
+.navbar{
+    margin-left: 8%;
+    
+
+}
+.navbar a{
+text-decoration: none;
+margin:4%;
+color: rgb(72, 0, 255);
+}
+#nuro{
+    color: rgb(0, 255, 225);
+    margin-left: 5%;}
+.contact{
+    text-align: center;
+    font-size: 23px;
+}
+.info{
+    display: flex;
+    gap: 12%;
+    margin-left: 5%;
+}
+input{
+    background-color: rgb(187, 202, 197);
+    padding: 12px;
+    border: none;
+
+}
+.input input{
+height: 100px;
+width: 540px;
+border-radius: 0% 0% 30% 0%;
+}
+.input{
+    margin-left: 5%;
+}
+button{
+    margin-left: 5%;
+    padding: 15px;
+    background-color: rgb(145, 145, 247);
+    border: none;
+    border-radius: 10%;
+}
+.end{
+    display: flex;
+    gap: 25%;
+    margin-left: 3%;
+    background-color: rgb(201, 218, 241);
+    border-radius: 2%;
+    margin-top: 5%;
+}
+.local{
+    margin-left: 2%;
+}
