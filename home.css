@@ -111,39 +111,8 @@ h1{
     margin-left: 2%;
 }
 
-@media screen and (max-width:600px){
-.img1 img{
-        height: 400px;
-        width: 100%;
-        /* border-radius: 5%; 
-        /* margin-left: 5%; */
-    /* } */ }
-    .star {
-        flex-direction: column;
-        margin-left: 1%;
-    }
-    .food{
-        margin-top: 15%;
-        background-color: whitesmoke;
-        height: 180px;
-        width: 200px;
-        border-radius: 2%;
-        margin-left: 5px;
-    }
-    .branch{
-        /* display: flex; */
-        gap: 12%;
-        margin-left: 2%;
-        font-size: small;
-    }
-    .end{
-        /* display: flex; */
-        gap: 10%;
-        margin-left: 3%;
-        background-color: aliceblue;
-        border-radius: 2%;
-        margin-top: 5%;
-    }
+@media screen and (max-width:900px){
+
     .local{
         font-size: small;
     }
@@ -153,5 +122,22 @@ h1{
     }
     .navbar{
         margin-left: 4%;
+    }
+    .head{
+        flex-direction: column;
+    }
+    .images {
+        flex-direction: column;
+    }
+    .img1 img{
+        width: 75%;
+    }
+    .pic{
+        flex-direction: column;
+    }
+    
+    
+    .hotel{
+        flex-direction: column;
     }
 }

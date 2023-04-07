@@ -52,3 +52,28 @@ button{
 .local{
     margin-left: 2%;
 }
+
+@media screen and (max-width:900px){
+    .navbar{
+        gap: 4%;
+    }
+    .end{
+        flex-direction: column;
+    }
+    .info{
+        flex-direction: column ;
+    }
+    .input input{
+        width: fit-content;
+    }
+    .contact{
+        font-size: 12px;
+    }
+
+}
+
+
+
+
+
+    

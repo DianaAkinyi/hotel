@@ -44,19 +44,39 @@ margin-left: 8%;
 }
 .local{
     margin-left: 2%;
+    
 }
 
-    @media screen and (max-width:600px){
-        .image img{
-            height: 400px;
-            width: 200px;
-            border-radius: 50% 0% 50% 0%;
-            margin-left: 8%;
-            
-            }
-            .out{
-                display: flex;
-                gap:40%;}
+    @media screen and (max-width:368px){
+        .out{
+                flex-direction: column;
+                gap:20%;}
+                .end{
+                    gap:10% ;
+                    font-size: 12px;
+                }
+                .local{
+                    font-size: 12px;
+                }
             
                 }
     
+                @media screen and (max-width:900px){
+                    .end{
+                    gap: 25%;
+                    }
+                    .navbar{
+                        gap: 4%;
+                    }
+                    .image img{
+                     width: 82%;
+                     height: 32%;
+                    }
+                    .Words{
+                        font-size: 30px;
+                        margin-left: 8%;
+                    }
+                    .out{
+                        flex-direction: column;
+                    }
+                }
